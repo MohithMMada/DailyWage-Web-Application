@@ -1,0 +1,43 @@
+.jobc-section {
+  margin: 20px;
+  min-width: 230px;
+  max-width: 315px;
+  /* width: 100%; */
+  text-align: center;
+  line-height: 1.4em;
+  color: rgb(92, 91, 91);
+}
+.jobc-section .jobc-div {
+  width: 100%;
+  background-color: white;
+  color: rgb(75, 75, 75);
+  padding: 25px 25px;
+  border-radius:10px;
+  margin: 20px;
+  display: inline-block;
+  text-transform: capitalize;
+}
+
+.jobc-section h3 {
+  margin:10px;
+  font-weight:600;
+  font-size: 1.5em;
+}
+
+.jobc-div h4 {
+  margin:2px;
+  color: rgb(92, 91, 91);
+  font-weight: 400;
+}
+
+.jobc-div p {
+  margin:2px;
+  color: rgb(92, 91, 91);
+  font-size: 1em;
+  letter-spacing: 1px;
+}
+.jobc-div button {
+  background-color: rgb(56, 37, 75);
+  color: white;
+
+}

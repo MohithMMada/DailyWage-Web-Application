@@ -1,0 +1,5 @@
+.joblist{
+  display: grid;
+  grid-template-columns: repeat(3, 27rem);
+  margin: 40px 50px;
+}

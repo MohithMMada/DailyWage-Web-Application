@@ -1,0 +1,40 @@
+.register{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: white;
+  flex-direction: column;
+  margin: 5rem 18rem;
+  padding: 2rem 0;
+
+}
+.register h2{
+  color: rgb(22, 19, 19);
+  /* padding:1rem;/ */
+}
+.register span{
+  color: rgb(85, 85, 85);
+  padding:1rem;
+}
+.register form{
+  display: flex;
+  flex-direction: column;
+  padding: 2rem auto;
+  width: 25rem;
+}
+.register form input,select{
+  border: 1px,solid black;
+  padding: 0.5rem 0.5rem;
+  margin: 0.3rem;
+}
+.register form input,select:focus{
+  outline: none;
+}
+.register form button{
+  background-color: #0f0c29;
+  font-size: 1rem;
+  padding: 1rem;
+  color: white;
+  cursor: pointer;
+}

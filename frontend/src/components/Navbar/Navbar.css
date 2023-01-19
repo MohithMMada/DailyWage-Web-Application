@@ -1,0 +1,42 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+nav {
+  background-color: rgb(56, 37, 75);
+  display: flex;
+  justify-content: space-between;
+  padding: 100px, 20px;
+  align-items: center;
+  position:fixed;
+  top:0%;
+  width: 100%; 
+}
+nav .nav-title{
+  font-size: 2rem;
+  color: whitesmoke;
+  margin: 10px;
+  text-decoration: none;
+}
+nav a{
+  font-size: 1.5rem;
+  color: whitesmoke;
+  text-decoration: none;
+  margin: 10px;
+}
+nav button{
+  color: rgb(56, 37, 75);
+  font-weight: bold;
+  background-color: white;
+  margin: 10px;
+  padding: 9px;
+  cursor: pointer;
+  border-radius: 7px;
+  border: none;
+}
+nav button:hover{
+  color: whitesmoke;
+  background-color: rgb(56, 37, 75);
+  transition: 0.4s;
+}
